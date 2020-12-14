@@ -19,11 +19,3 @@ steps:
   inputs:
     command: 'install'
   displayName: npm packages
-- task: CmdLine@2
-  inputs:
-    script: |
-      echo Write your commands here
-      
-      echo Hello world
-      
-      ng build --prod
